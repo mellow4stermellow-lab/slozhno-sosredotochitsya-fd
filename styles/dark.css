@@ -9,4 +9,35 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+  /*Бэк Page-Dark*/
+
+  --background-image: var(--background-image-dark);
+
+  /**h1*/
+
+  --title-decor: #ff0070;
+  --title-color: #db00ff;
+
+  /*h2*/
+
+  --title-h2-color: #ff0070;
+
+  /*button*/
+
+  --button-color: #ff0070;
+  --button-decor: #ff0070;
+
+  /*Докративная зона*/
+
+  --decorated-zone-color: #ff0070;
+  --content-section__text: #f1b2ce;
+
+  --border-color-hover: #ff007066;
+
+  --accent-color: #ff0070;
+}
+
+.theme-dark .decorative-text {
+  visibility: visible;
 }

@@ -9,4 +9,39 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+  --title-decor: var(--light-decor);
+  --accent-color: var(--light-decor);
+  --title-color: var(--title-light);
+  --content-section__text: var(--dark);
+  --title-h2-color: var(--dark);
+  --button-color: var(--dark);
+  --button-decor: var(--dark);
+  --border-color-hover: #32312d66;
+  --decorated-zone-color: var(--dark);
+  --background-image: var(--background-image-light);
+}
+
+.theme-light .decorative-text {
+  visibility: hidden;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --title-decor: var(--light-decor);
+    --accent-color: var(--light-decor);
+    --title-color: var(--title-light);
+    --content-section__text: var(--dark);
+    --title-h2-color: var(--title-h2-color-light);
+    --button-color: var(--dark);
+    --button-decor: var(--dark);
+    --border-color-hover: #32312d66;
+    --decorated-zone-color: var(--dark);
+    --decorated-zone-color: var(--dark);
+    --background-image: var(--background-image-light);
+  }
+
+  .decorative-text {
+    visibility: hidden;
+  }
 }
