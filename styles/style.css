@@ -8,7 +8,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #00022d;
+  background-color: var(--background-color);
   font-family: var(--font-family), "Courier New";
   font-size: var(--font-size-heading, 18px);
   line-height: var(--line‑height, 23.4px);
