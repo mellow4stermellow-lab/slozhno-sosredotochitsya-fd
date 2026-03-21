@@ -20,7 +20,7 @@
   --border-color-hover: #32312d66;
   --decorated-zone-color: var(--dark);
   --background-image: var(--background-image-light);
-  --background-color: #FFEFF7ff;
+  --background-color: #ffeff7ff;
 }
 
 .theme-light .decorative-text {
@@ -40,7 +40,7 @@
     --decorated-zone-color: var(--dark);
     --decorated-zone-color: var(--dark);
     --background-image: var(--background-image-light);
-    --background-color: #FFEFF7ff;
+    --background-color: #ffeff7ff;
   }
 
   .decorative-text {
