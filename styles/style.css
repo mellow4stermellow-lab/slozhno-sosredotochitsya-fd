@@ -13,7 +13,7 @@
   font-size: var(--font-size-heading, 18px);
   line-height: var(--line‑height, 23.4px);
   font-weight: var(--font-weight, 400);
-  margin: 0;
+  margin: 0 auto;
   /*scrollbar-gutter: stable;
   overflow: hidden;*/
 }
@@ -61,7 +61,7 @@
   top: var(--decoration-margin-scaling, 10px);
   right: 18px;
   color: var(--accent-color);
-  font-family: var(--font-family);
+  font-family: var(--font-family), "Courier New";
   font-size: var(--font-size-heading, 18px);
   text-transform: uppercase;
   line-height: 25px;
@@ -133,6 +133,9 @@
 
 .header__theme-menu-button:focus {
   outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--button-decor);
 }
 
@@ -163,9 +166,9 @@
   margin-block-end: var(--decoration-margin-scaling, 10px);
 }
 
-.heading p {
+/*.heading p {
   margin: 0;
-}
+}*/
 
 /* Основной контент - текст */
 
@@ -176,11 +179,11 @@
 .content-section__title {
   font-size: var(--font-size-heading, 18px);
   font-weight: 700;
-  color: var(--title-h2-color);
+  color: var(--main-title);
 }
 
 .content-section__text {
-  color: var(--content-section__text);
+  color: var(--content-section);
   margin: 0;
 }
 
@@ -203,22 +206,22 @@
 .content-section__link {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color);
-  color: var(--content-section__text);
+  color: var(--content-section);
 }
 
 .content-section__link:focus-visible {
-  outline: 1px solid var(--content-section__text);
+  outline: 1px solid var(--content-section);
 }
 
 .content-section__link:hover {
   outline: none;
-  border-bottom: 2px solid var(--content-section__text);
+  border-bottom: 2px solid var(--content-section);
 }
 
 /* Дубль
 
 .content-section__link:focus-visible {
-  outline: 1px solid var(--content-section__text); 
+  outline: 1px solid var(--content-section); 
 }
 
 */

@@ -9,15 +9,16 @@
   --light-decor: #ff8dcb;
   --title-light: #ffc2e6;
   --dark: #353430;
+  /*
   --background-image-light: url("../images/cover-image-light.png");
-
-  --background-image-dark: url("../images/cover-image-dark.png");
-  --heading-color: #000028;
+  --background-image-dark: url("../images/cover-image-dark.png"); 
   --title-dark: #db00ff;
+  */
+  --heading-color: #000028;
   --border-color-hover-dark: #ff007066;
-  --content-section__text-dark: #f1b2ce;
+  --content-section-dark: #f1b2ce;
 
-  --accent-color-dark: #ff0070;
+  /*--accent-color-dark: #ff0070;*/
   --accent-color: #ff0070;
 
   --border-color-hover: var(--border-color-hover-dark);
@@ -29,7 +30,7 @@
 
   /*Бэк Page-Dark*/
 
-  --background-image: var(--background-image-dark);
+  --background-image: url("../images/cover-image-dark.png");
 
   /**h1*/
 
@@ -38,7 +39,7 @@
 
   /*h2*/
 
-  --title-h2-color: #ff0070;
+  --main-title: #ff0070;
 
   /*button*/
 
@@ -48,7 +49,7 @@
   /*Докративная зона*/
 
   --decorated-zone-color: #ff0070;
-  --content-section__text: #f1b2ce;
+  --content-section: #f1b2ce;
 
   --border-color-hover: #ff007066;
 

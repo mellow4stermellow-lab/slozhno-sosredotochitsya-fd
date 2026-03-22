@@ -12,31 +12,34 @@
 
   /*Бэк Page-Dark*/
 
-  --background-image: var(--background-image-dark);
+  --accent-color: #ff0070;
+
+  --background-image: url("../images/cover-image-dark.png");
 
   /*h1*/
 
-  --title-decor: #ff0070;
+  --title-decor: var(--accent-color); /*#ff0070;*/
   --title-color: #db00ff;
 
   /*h2*/
 
-  --title-h2-color: #ff0070;
+  --main-title: var(--accent-color);
 
   /*button*/
 
-  --button-color: #ff0070;
-  --button-decor: #ff0070;
+  --button-color: var(--accent-color);
+  --button-decor: var(--accent-color);
 
   /*Докративная зона*/
 
-  --decorated-zone-color: #ff0070;
-  --content-section__text: #f1b2ce;
+  --decorated-zone-color: var(--accent-color);
+  --content-section: #f1b2ce;
 
   --border-color-hover: #ff007066;
 
-  --accent-color: #ff0070;
+  /*--accent-color: var(--accent-color);*/
   --background-color: #00022d;
+  --heading-color: #000028;
 }
 
 .theme-dark .decorative-text {
